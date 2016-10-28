@@ -1,1 +1,9 @@
-If you need to rebuild the configure script, you will need to have the autoconf-archive package installed on your system.
+This is a simple example app that uses the MongoDB "legacy" C++ driver.
+
+You will need the Boost libraries, the MongoDB "legacy" C++ driver, and the autoconf-archive packages installed to build this project.
+
+Build Process:
+
+$ autoreconf --install
+$ ./configure
+$ make
