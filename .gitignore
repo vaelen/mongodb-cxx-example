@@ -1,16 +1,56 @@
-*.o
-Makefile
+# http://www.gnu.org/software/automake
+
 Makefile.in
-*/Makefile
-*/Makefile.in
-config.*
-aclocal.m4
-autom4te.cache
-compile
-configure
-depcomp
-install-sh
-missing
+
+# http://www.gnu.org/software/autoconf
+
+/autom4te.cache
+/autoscan.log
+/autoscan-*.log
+/aclocal.m4
+/compile
+/config.h.in
+/configure
+/configure.scan
+/depcomp
+/install-sh
+/missing
+/stamp-h1
+
+Makefile
 .deps
-*/.deps
-stamp-h1
+config.*
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
