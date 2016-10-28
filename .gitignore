@@ -1,3 +1,9 @@
+# Build artifacts
+
+src/connect
+src/create
+src/read
+
 # http://www.gnu.org/software/automake
 
 Makefile.in
